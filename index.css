@@ -1,0 +1,168 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+.btnlupa {
+    position: absolute;
+    top: 10px;
+    margin-left: 495px;
+}
+
+h1{ font-size: 4.0em;
+font-family: cursive;
+color:darkblue;
+}
+h2{font-size: 3.5em;}
+ul{
+    margin-inline-start: 20pc;
+    
+    list-style:none;
+}
+
+button{
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(94, 197, 228);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.suscribir{
+    background-color: rgba(91, 175, 91, 0.671);
+}
+.comprar{
+    font-size: 1.20em;
+    padding: 10px 20px;
+    background-color: rgb(223, 82, 0);
+}
+.colecciones{
+    font-size: 1.20em;
+    padding: 10px 20px;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    background-color: rgb(245,245,245);   
+}
+.desplegable{
+    display: flex;
+    width: 90px;
+    
+}
+.desplegable li a {
+background-color: rgba(197, 197, 197, 0.671);
+color: rgb(17, 15, 15);
+text-decoration: none;
+padding: 5px 13px;
+
+}
+.desplegable li a:hover{
+    background-color: rgb(212, 236, 236);
+}
+.desplegable > li{
+    float:left
+}
+.desplegable li ul{
+display: none   ;
+position: absolute;
+min-width:140px;
+}
+.desplegable li:hover>ul{
+    display: flex;
+}
+.icon1{
+    position: absolute;
+    right: 500px;
+    top: 6px;
+}
+.sessionpapa{
+    width: 80%;
+    height: auto;
+    margin:80px auto;
+    display: flex;
+    margin-top: auto;
+}
+.session1{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left:-80px ;
+}
+.session2{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left:0px ;
+    
+}
+.session3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left:50px ;
+}
+.session4{
+ width: 300px;
+ height: 200px;
+ position: relative;
+ left:80px ;
+
+    
+}
+.session5{
+   width: 350px;
+   height: 200px;
+   position: relative;
+   left:100px ;
+}
+
+.img1{
+    
+    opacity: 60%;
+}
+.texto{
+    position:absolute;
+    margin-top: -500px;
+}
+
+nav{
+    background-color: rgba(17, 6, 6, 0.967);
+  height: 50px;
+    display: flex; 
+  justify-content: center;
+}
+
+.button1{
+    background-color: black;
+    border-color: brown;
+    width: 95px;
+    height: 50px;
+    color: aliceblue;
+}
+
+.button3{
+    background-color: black;
+    border-color: brown;
+    width: 95px;
+    height: 50px;
+    color: aliceblue;
+}
+.button2{
+    background-color: black;
+    border-color: brown;
+    width: 130px;
+    height: 50px;
+    color: aliceblue;
+}

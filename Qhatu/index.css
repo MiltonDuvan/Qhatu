@@ -1,0 +1,134 @@
+*{
+    background-origin: padding-box;
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   background-color: #F3F5F6;
+   height: 100px;
+
+   
+}
+.header1 
+{
+    margin: 21px;
+}
+.header2 
+{
+    margin: 13px;
+}
+.header3 
+{
+    margin: 23px;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    height: 50px;
+    background-color:#F3F5F6 ;
+    
+}
+.div1{
+   
+    justify-content: center;
+    width: 7%;
+   
+}
+.div2{
+   
+    justify-content: center;
+    width: 7%;
+   
+}
+.div3{
+    
+    justify-content: center;
+    width: 7%;
+   
+}
+.div4{
+   
+    justify-content: center;
+    width: 10%;
+   
+}
+.div5{
+   
+    justify-content: center;
+    width: 2%;
+   
+}
+.div6{
+   
+    justify-content: center;
+    width: 2%;
+    
+   
+}
+
+a{
+   text-decoration: none;
+   color: black;
+   
+}
+.articulo{
+    display: flex;
+    justify-content: space-between;
+}
+   
+
+h2
+{
+    font-size: 100px;
+}
+
+.divarticul2
+{
+    display: flex;
+
+}
+.primera_linea
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.segunda_linea
+{
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+footer
+{
+    display: flex;
+    justify-content:space-between;
+    color: aliceblue;
+    background-color: black;
+    padding: 40px;
+}
+ul li
+{
+    text-decoration: none;
+}
+footer a
+{
+    color:aliceblue
+
+}
+.h3section{
+ font-size: 38px;
+}
+p{
+    font-size: 18px;
+}
